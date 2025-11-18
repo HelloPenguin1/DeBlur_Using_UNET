@@ -5,18 +5,14 @@ import numpy as np
 from unet_archi import build_deblurring_cnn
 
 def load_model(path):
-    """
-    Rebuild your custom U-Net architecture and load weights.
-    """
     try:
-        print(f"   Building U-Net deblurring architecture...")
-        # Use 128x128 to match your config.py settings
+        print(f"Building U-Net deblurring architecture...")
         model = build_deblurring_cnn(input_shape=(256, 256, 3))
         
-        print(f"   Loading weights from {path.name}...")
+        print(f"Loading weights from {path.name}...")
         model.load_weights(str(path))
         
-        print(f"   ✓ Model loaded successfully")
+        print(f"Model loaded successfully")
         return model
         
     except Exception as e:

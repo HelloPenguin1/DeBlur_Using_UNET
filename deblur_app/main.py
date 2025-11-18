@@ -23,7 +23,7 @@ def main():
         return
     
     original = load_image(INPUT_IMAGE_PATH)
-    print(f"   ✓ Loaded and resized to {IMG_WIDTH}x{IMG_HEIGHT}")
+    print(f"Loaded and resized to {IMG_WIDTH}x{IMG_HEIGHT}")
     
     
     # Load model
@@ -35,12 +35,12 @@ def main():
     model = load_model(MODEL_PATH)
     if model is None:
         return
-    print(f"   ✓ Model loaded")
+    print(f"Model loaded")
     
     # Deblur
     print(f"\n4. Deblurring...")
     deblurred = predict(model, original)
-    print(f"   ✓ Done")
+    print(f"Done")
     
     # Show results
     print(f"\n5. Showing results...")

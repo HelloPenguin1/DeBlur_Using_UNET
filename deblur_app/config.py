@@ -15,4 +15,4 @@ MODEL_FILENAME = "unet_deblur.weights.h5"  # Weights file
 MODEL_PATH = ROOT_DIR / "models" / MODEL_FILENAME
 
 # Input image path
-INPUT_IMAGE_PATH = ROOT_DIR / "samples" / "blurred_image_3.png"
+INPUT_IMAGE_PATH = ROOT_DIR / "samples" / "blurred_image_10.png"
