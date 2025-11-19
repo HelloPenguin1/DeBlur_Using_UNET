@@ -1,12 +1,12 @@
-# 📌 Image Deblurring Application
+# Image Deblurring Application
 
-## 🔍 Project Overview
+## Project Overview
 This project implements an end-to-end pipeline for restoring blurred images using a deep learning–based **U-Net architecture** built with **TensorFlow/Keras**.  
 The codebase is modular and structured to ensure clarity, maintainability, and easy extension.
 
 ---
 
-## 📁 Component Breakdown
+## Component Breakdown
 
 ---
 
@@ -90,7 +90,7 @@ The codebase is modular and structured to ensure clarity, maintainability, and e
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 ### **1. Update Configuration**
 Modify values in `config.py` to customize:
